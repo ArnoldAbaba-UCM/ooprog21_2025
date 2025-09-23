@@ -5,9 +5,9 @@ public class DebugBox
    private int height;
    
    public static void main(String[] args){
-      DebugBox box1 = new DebugBox();
-      box1.showData();
-      System.out.println("Volume: " + box1.getVolume());
+      DebugBox box = new DebugBox();
+      box.showData();
+      System.out.println("Volume: " + box.getVolume());
    }
 
    
@@ -32,3 +32,4 @@ public class DebugBox
       return vol;
    }
 }
+
