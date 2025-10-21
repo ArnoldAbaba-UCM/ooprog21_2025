@@ -18,7 +18,7 @@ class BankBalance{
                 choice = scan.nextInt();
                 if(choice==1){
                     balance = balance+(balance*0.03);
-                    System.out.println("After "+counter+" year at 0.03 interest rate, balance is $"+balance);
+                    System.out.println("After "+counter+" years at 0.03 interest rate, balance is $"+balance);
                     counter++;
                 }else{
                     scan.close();
