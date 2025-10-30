@@ -6,7 +6,7 @@ public class CharacterInfo{
       String CASE = "";
       //Scanner scan = new Scanner(System.in);
       charr = 'C';
-      System.out.print("The character is ");
+      System.out.println("The character is "+charr);
       //char charr = scan.next().charAt(0);
       
       if(Character.isLowerCase(charr)==true){
@@ -33,4 +33,5 @@ public class CharacterInfo{
          System.out.println(charr+" is not a whitespace");
       }
    }
+
 }
