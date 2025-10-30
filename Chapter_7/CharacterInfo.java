@@ -7,7 +7,7 @@ public class CharacterInfo{
       //Scanner scan = new Scanner(System.in);
       charr = 'C';
       System.out.println("The character is "+charr);
-      //char charr = scan.next().charAt(0);
+      //charr = scan.next().charAt(0);
       
       if(Character.isLowerCase(charr)==true){
          System.out.println(charr+" is lowercase");
@@ -35,3 +35,4 @@ public class CharacterInfo{
    }
 
 }
+
